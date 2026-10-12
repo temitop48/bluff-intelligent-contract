@@ -1,0 +1,36 @@
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+node_modules
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/context
+/frontend/.next
+/frontend/next-env.d.ts
+/frontend/bun.lock
+/frontend/package-lock.json
+*.compiled.js
+package-lock.json
+
+
+# Python environments and test caches
+.venv/
+.pytest_cache/
+
+# BLUFF local development artifacts
+bluff-fees.json
+requirements.before-gltest-upgrade.txt
+contracts/bluff.py.backup
+contracts/bluff.pre-v06.py
+contracts/bluff.v1-undetermined.py
